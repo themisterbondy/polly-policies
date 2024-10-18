@@ -1,0 +1,6 @@
+﻿services:
+  pp:
+    image: pp
+    build:
+      context: .
+      dockerfile: PP/Dockerfile
